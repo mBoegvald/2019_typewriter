@@ -42,7 +42,7 @@
         counter++;
         document.querySelector("#typewriter").textContent = typewriterText.substring(0, counter);
         if (typewriterText.length>counter) {
-            setTimeout(typewriterLoop, (Math.random() + 100));
+            setTimeout(typewriterLoop, (Math.random() * 200));
 
         }
     }
